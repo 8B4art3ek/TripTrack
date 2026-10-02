@@ -115,6 +115,8 @@ app.post("/trips", async (req, res) => {
 
 function isValidTrip(trip) {
     return (
+        trip.from &&
+        trip.to &&
         trip.destination &&
         trip.days > 0 &&
         trip.cost >= 0
