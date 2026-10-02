@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chuj wie co xd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Kraków → Wiedeń → Praga</h1>
+        <button id="changeButton">Zmień trase</button>
+    </header>
+    <nav>
+        <a href="http://">STRONA GŁÓWNA</a>
+        <a href="http://">PODROZE</a>
+        <a href="http://">O APLIKACJI</a>
+    </nav>
+    <main>
+        <h1>Witaj na stornie podróży z Krakowa do Pragi</h1>
+        <section>
+            <button class="filter-button" data-filter="all">Wszystkie</button>
+            <button class="filter-button" data-filter="cheap">Tanie</button>
+            <button class="filter-button" data-filter="long">Długie</button>
+            <h2>Lista podróży</h2>
+            <form id="tripForm">
+                <input id="destination" type="text" placeholder="Miasto">
+                <input id="days" type="number" placeholder="Liczba dni">
+                <input id="cost" type="number" placeholder="Cena">
+
+                <button id="submitButton" type="submit">Dodaj podróż</button>
+            </form>
+            <p id="loading">Ładowanie...</p>
+            <p id="error"></p>
+            <ul id="tripList">
+
+            </ul>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>miasto poczatkowe</th>
+                        <th>miasato docelowe</th>
+                        <th>srodek transportu</th>
+                        <th>cena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <form action="" method="post">
+                <input type="text" name="" id="">
+                <input type="date" name="" id="">
+                <button>kliknij mnie</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h5>Stopka strony</h5>
+        <button class="test-button">1</button>
+        <button class="test-button">2</button>
+        <button class="test-button">3</button>
+        <p id="status">Nieaktywny</p>
+        <button id="statusButton">Zmień status</button>
+        <div id="parent">
+            <button id="child">Kliknij mnie</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

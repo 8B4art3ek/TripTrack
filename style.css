@@ -1,0 +1,56 @@
+body {
+    background-color: #18181b;
+    color: #f4f4f585;
+}
+
+header {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 10%;
+    text-decoration: none;
+    color: red;
+}
+
+nav a:hover {
+    color: red
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table, td, th {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td, th{
+    padding: 10px;
+}
+
+form input{
+    margin: 10px;
+}
+
+section {
+    margin: 15px
+}
+
+.active {
+    color: green;
+    font-weight: bold;
+}
